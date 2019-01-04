@@ -866,9 +866,6 @@ public final class R {
         public static int select_dialog_singlechoice_material = 0x7f0f0032;
         public static int support_simple_spinner_dropdown_item = 0x7f0f0033;
     }
-    public static final class mipmap {
-        public static int ic_launcher = 0x7f110001;
-    }
     public static final class string {
         public static int abc_action_bar_home_description = 0x7f150001;
         public static int abc_action_bar_home_description_format = 0x7f150002;

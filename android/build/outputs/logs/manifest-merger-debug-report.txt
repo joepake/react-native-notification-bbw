@@ -1,14 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Data/Projects/ReactNative/rnshkp/node_modules/react-native-notification/android/src/main/AndroidManifest.xml:1:1-5:12
-INJECTED from /Data/Projects/ReactNative/rnshkp/node_modules/react-native-notification/android/src/main/AndroidManifest.xml:1:1-5:12
-INJECTED from /Data/Projects/ReactNative/rnshkp/node_modules/react-native-notification/android/src/main/AndroidManifest.xml:1:1-5:12
+ADDED from /Data/Projects/ReactNative/rnshkp/node_modules/react-native-notification/android/src/main/AndroidManifest.xml:1:1-4:12
+INJECTED from /Data/Projects/ReactNative/rnshkp/node_modules/react-native-notification/android/src/main/AndroidManifest.xml:1:1-4:12
+INJECTED from /Data/Projects/ReactNative/rnshkp/node_modules/react-native-notification/android/src/main/AndroidManifest.xml:1:1-4:12
 	package
-		ADDED from /Data/Projects/ReactNative/rnshkp/node_modules/react-native-notification/android/src/main/AndroidManifest.xml:3:5-42
+		ADDED from /Data/Projects/ReactNative/rnshkp/node_modules/react-native-notification/android/src/main/AndroidManifest.xml:2:5-42
 		INJECTED from /Data/Projects/ReactNative/rnshkp/node_modules/react-native-notification/android/src/main/AndroidManifest.xml
 		INJECTED from /Data/Projects/ReactNative/rnshkp/node_modules/react-native-notification/android/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Data/Projects/ReactNative/rnshkp/node_modules/react-native-notification/android/src/main/AndroidManifest.xml:2:5-63
+		ADDED from /Data/Projects/ReactNative/rnshkp/node_modules/react-native-notification/android/src/main/AndroidManifest.xml:1:1-4:12
 uses-sdk
 INJECTED from /Data/Projects/ReactNative/rnshkp/node_modules/react-native-notification/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Data/Projects/ReactNative/rnshkp/node_modules/react-native-notification/android/src/main/AndroidManifest.xml
