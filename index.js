@@ -1,2 +1,2 @@
-import {NativeModules} from "react-native";
-module.exports = NativeModules.RNNotification
+var ReactNative = require('react-native')
+module.exports = ReactNative.NativeModules.RNNotification

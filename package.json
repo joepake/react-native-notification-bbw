@@ -11,7 +11,11 @@
   },
   "keywords": [
     "notification",
-    "react-native"
+    "react-native",
+    "react",
+    "react-component",
+    "ios",
+    "android"
   ],
   "author": "Joepake",
   "license": "ISC",

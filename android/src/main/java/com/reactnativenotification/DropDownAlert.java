@@ -16,7 +16,8 @@ import android.widget.TextView;
 
 import java.util.Timer;
 import java.util.TimerTask;
-import com.reactnativenotification.R;
+
+import static com.facebook.react.bridge.UiThreadUtil.runOnUiThread;
 
 public class DropDownAlert {
 
@@ -30,9 +31,7 @@ public class DropDownAlert {
 
 
     public interface DropDownAlertListener {
-        public void onClick(View v);
-
-
+        void onClick(View v);
     }
 
     private DropDownAlertListener listener;
@@ -116,25 +115,22 @@ public class DropDownAlert {
             }
         }
 
-        ActionBar.LayoutParams lp = new ActionBar.LayoutParams(ActionBar.LayoutParams.MATCH_PARENT, ActionBar.LayoutParams.WRAP_CONTENT);
+        final ActionBar.LayoutParams lp = new ActionBar.LayoutParams(ActionBar.LayoutParams.MATCH_PARENT, ActionBar.LayoutParams.WRAP_CONTENT);
         ImageView message_alert_image = (ImageView) view.findViewById(R.id.image_message_alert);
         TextView message_alert_title = (TextView) view.findViewById(R.id.text_message_alert_tittle);
         TextView message_alert_content = (TextView) view.findViewById(R.id.text_message_alert_content);
-        LinearLayout l = (LinearLayout) view.findViewById(R.id.linear_message_alert);
-        if (bitmap != null) {
-            message_alert_image.setImageBitmap(bitmap);
-            message_alert_content.setGravity(Gravity.LEFT);
-            message_alert_title.setGravity(Gravity.LEFT);
-
-        } else {
-            message_alert_image.setImageResource(android.R.color.transparent);
-            message_alert_image.getLayoutParams().height = 0;
-            message_alert_image.getLayoutParams().width = 0;
-            message_alert_content.setGravity(Gravity.CENTER_VERTICAL | Gravity.CENTER_HORIZONTAL);
-            message_alert_title.setGravity(Gravity.CENTER_VERTICAL | Gravity.CENTER_HORIZONTAL);
-
-        }
-
+//        if (bitmap != null) {
+//            message_alert_image.setImageBitmap(bitmap);
+//            message_alert_content.setGravity(Gravity.LEFT);
+//            message_alert_title.setGravity(Gravity.LEFT);
+//
+//        } else {
+//            message_alert_image.setImageResource(android.R.color.transparent);
+//            message_alert_image.getLayoutParams().height = 0;
+//            message_alert_image.getLayoutParams().width = 0;
+//            message_alert_content.setGravity(Gravity.CENTER_VERTICAL | Gravity.CENTER_HORIZONTAL);
+//            message_alert_title.setGravity(Gravity.CENTER_VERTICAL | Gravity.CENTER_HORIZONTAL);
+//        }
 
         message_alert_content.setText(content);
         message_alert_title.setText(title);
@@ -144,7 +140,14 @@ public class DropDownAlert {
             Animation down = AnimationUtils.loadAnimation(context,
                     R.anim.anim_down);
             view.startAnimation(down);
-            context.addContentView(view, lp);
+
+            runOnUiThread(new Runnable() {
+
+                @Override
+                public void run() {
+                    context.addContentView(view, lp);
+                }
+            });
 
         } else {
             Animation down = AnimationUtils.loadAnimation(context,
@@ -163,7 +166,6 @@ public class DropDownAlert {
                 if (timer != null) {
                     timer.cancel();
                     dismiss();
-
                 }
             }
         });
@@ -185,7 +187,6 @@ public class DropDownAlert {
 
     class dismissTimerTask extends TimerTask {
         public void run() {
-
             context.runOnUiThread(new Runnable() {
                 @Override
                 public void run() {

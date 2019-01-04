@@ -12,29 +12,29 @@ public final class R {
         public static int actualImageScaleType = 0x7f040024;
         public static int actualImageUri = 0x7f040025;
         public static int backgroundImage = 0x7f040036;
-        public static int fadeDuration = 0x7f040076;
-        public static int failureImage = 0x7f040077;
-        public static int failureImageScaleType = 0x7f040078;
-        public static int overlayImage = 0x7f0400af;
-        public static int placeholderImage = 0x7f0400b7;
-        public static int placeholderImageScaleType = 0x7f0400b8;
-        public static int pressedStateOverlayImage = 0x7f0400bd;
-        public static int progressBarAutoRotateInterval = 0x7f0400be;
-        public static int progressBarImage = 0x7f0400bf;
-        public static int progressBarImageScaleType = 0x7f0400c0;
-        public static int retryImage = 0x7f0400c9;
-        public static int retryImageScaleType = 0x7f0400ca;
-        public static int roundAsCircle = 0x7f0400cb;
-        public static int roundBottomLeft = 0x7f0400cc;
-        public static int roundBottomRight = 0x7f0400cd;
-        public static int roundTopLeft = 0x7f0400ce;
-        public static int roundTopRight = 0x7f0400cf;
-        public static int roundWithOverlayColor = 0x7f0400d0;
-        public static int roundedCornerRadius = 0x7f0400d1;
-        public static int roundingBorderColor = 0x7f0400d2;
-        public static int roundingBorderPadding = 0x7f0400d3;
-        public static int roundingBorderWidth = 0x7f0400d4;
-        public static int viewAspectRatio = 0x7f040119;
+        public static int fadeDuration = 0x7f040082;
+        public static int failureImage = 0x7f040083;
+        public static int failureImageScaleType = 0x7f040084;
+        public static int overlayImage = 0x7f0400bb;
+        public static int placeholderImage = 0x7f0400c3;
+        public static int placeholderImageScaleType = 0x7f0400c4;
+        public static int pressedStateOverlayImage = 0x7f0400c9;
+        public static int progressBarAutoRotateInterval = 0x7f0400ca;
+        public static int progressBarImage = 0x7f0400cb;
+        public static int progressBarImageScaleType = 0x7f0400cc;
+        public static int retryImage = 0x7f0400d5;
+        public static int retryImageScaleType = 0x7f0400d6;
+        public static int roundAsCircle = 0x7f0400d7;
+        public static int roundBottomLeft = 0x7f0400d8;
+        public static int roundBottomRight = 0x7f0400d9;
+        public static int roundTopLeft = 0x7f0400da;
+        public static int roundTopRight = 0x7f0400db;
+        public static int roundWithOverlayColor = 0x7f0400dc;
+        public static int roundedCornerRadius = 0x7f0400dd;
+        public static int roundingBorderColor = 0x7f0400de;
+        public static int roundingBorderPadding = 0x7f0400df;
+        public static int roundingBorderWidth = 0x7f0400e0;
+        public static int viewAspectRatio = 0x7f040125;
     }
     public static final class id {
         public static int center = 0x7f0c001f;
@@ -48,7 +48,7 @@ public final class R {
         public static int none = 0x7f0c004b;
     }
     public static final class styleable {
-        public static int[] GenericDraweeHierarchy = { 0x7f040024, 0x7f040036, 0x7f040076, 0x7f040077, 0x7f040078, 0x7f0400af, 0x7f0400b7, 0x7f0400b8, 0x7f0400bd, 0x7f0400be, 0x7f0400bf, 0x7f0400c0, 0x7f0400c9, 0x7f0400ca, 0x7f0400cb, 0x7f0400cc, 0x7f0400cd, 0x7f0400ce, 0x7f0400cf, 0x7f0400d0, 0x7f0400d1, 0x7f0400d2, 0x7f0400d3, 0x7f0400d4, 0x7f040119 };
+        public static int[] GenericDraweeHierarchy = { 0x7f040024, 0x7f040036, 0x7f040082, 0x7f040083, 0x7f040084, 0x7f0400bb, 0x7f0400c3, 0x7f0400c4, 0x7f0400c9, 0x7f0400ca, 0x7f0400cb, 0x7f0400cc, 0x7f0400d5, 0x7f0400d6, 0x7f0400d7, 0x7f0400d8, 0x7f0400d9, 0x7f0400da, 0x7f0400db, 0x7f0400dc, 0x7f0400dd, 0x7f0400de, 0x7f0400df, 0x7f0400e0, 0x7f040125 };
         public static int GenericDraweeHierarchy_actualImageScaleType = 0;
         public static int GenericDraweeHierarchy_backgroundImage = 1;
         public static int GenericDraweeHierarchy_fadeDuration = 2;
