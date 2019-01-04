@@ -1,6 +1,2 @@
-'use strict';
-
-import {Platform, NativeModules} from "react-native";
-const Notification = NativeModules.RNNotification;
-
-module.exports = {Notification};
+import {NativeModules} from "react-native";
+module.exports = NativeModules.RNNotification
