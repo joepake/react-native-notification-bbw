@@ -157,7 +157,7 @@ public class DropDownAlert {
 
 
         timer = new Timer();
-        timer.schedule(new dismissTimerTask(), 3000);
+        timer.schedule(new dismissTimerTask(), 4000);
         view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
