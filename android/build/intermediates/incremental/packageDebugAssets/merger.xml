@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Data/Projects/ReactNative/rnshkp/node_modules/react-native-notification/android/src/main/assets"/><source path="/Data/Projects/ReactNative/rnshkp/node_modules/react-native-notification/android/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Data/Projects/ReactNative/rnshkp/node_modules/react-native-notification/android/src/debug/assets"/></dataSet></merger>

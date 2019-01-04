@@ -29,7 +29,12 @@ public class Notification extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public void show(ReadableMap args, final Callback callback) {
-                    // callback.invoke(null, metaDataFromFile(new File(files[0])));
+        DropDownAlert downAlertNoImage = new DropDownAlert(getCurrentActivity(), getCurrentActivity(), false);
+        downAlertNoImage.setTitle("Warning!");
+        downAlertNoImage.setContent("Do NOT click");
+        downAlertNoImage.show();
+
+        // callback.invoke(null, metaDataFromFile(new File(files[0])));
     }
 
 }
