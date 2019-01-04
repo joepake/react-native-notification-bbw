@@ -1,6 +1,6 @@
 'use strict';
 
 import {Platform, NativeModules} from "react-native";
-const DocumentPicker = NativeModules.RNDocumentPicker;
+const Notification = NativeModules.RNNotification;
 
-module.exports = {DocumentPicker};
+module.exports = {Notification};

@@ -44,6 +44,5 @@ allprojects {
 dependencies {
     api "com.facebook.react:react-native:${safeExtGet('reactNativeVersion', '+')}"
     api 'com.android.support:appcompat-v7:27.1.1'
-    api 'com.android.support:recyclerview-v7:27.1.1'
 
 }
